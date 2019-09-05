@@ -1,13 +1,13 @@
-# Project Name
+# Banner Gallery Proxy
 
 > Project description
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/llaminati/Banner-Gallery-Proxy
+  - https://github.com/llaminati/Menu-proxy
+  - https://github.com/llaminati/Reservations-Proxy
+  - https://github.com/llaminati/Reviews-Proxy
 
 ## Table of Contents
 
@@ -33,7 +33,11 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 From within the root directory:
 
 ```sh
-npm install -g webpack
 npm install
 ```
 
+### Start proxy server
+
+```sh
+npm run start
+```
