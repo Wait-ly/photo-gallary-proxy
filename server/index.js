@@ -1,8 +1,10 @@
+const newrelic = require('newrelic');
 const express = require('express');
 
 const app = express();
 const port = 3000;
 
+app.locals.newrelic = newrelic;
 app.use(express.static('public'));
 app.use('/:listing/', express.static('public'));
 
