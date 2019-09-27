@@ -9,7 +9,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['SDC local proxy'],
+  app_name: ['SDC AWS proxy'],
   /**
    * Your New Relic license key.
    */
